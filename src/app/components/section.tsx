@@ -93,7 +93,3 @@ function Result({ result }: ResultProps) {
   )
 }
 
-/**
-  * 
- * 
- */

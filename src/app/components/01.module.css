@@ -79,25 +79,7 @@
   color: var(--orange);
 }
 
-@media (max-width: 460px) {
-  .card {
-    margin: 0em 1em;
-    width: 20rem;
-    height: 27rem;
-  }
 
-  .questionc img {
-    width: 20%;
-    height: auto;
-    padding: 15px;
-    background-color: #262e38;
-    border-radius: 50px;
-  }
-
-  .questionc ul li button {
-    padding: 0.5em 1em;
-  }
-}
 
 .result {
   display: flex;
@@ -136,4 +118,24 @@
   font-weight: 400;
   font-family: var(--overpass);
   text-align: center;
+}
+
+@media (max-width: 460px) {
+  .card {
+    margin: 0em 1em;
+    width: 20rem;
+    height: 27rem;
+  }
+
+  .questionc img {
+    width: 20%;
+    height: auto;
+    padding: 15px;
+    background-color: #262e38;
+    border-radius: 50px;
+  }
+
+  .questionc ul li button {
+    padding: 0.5em 1em;
+  }
 }
