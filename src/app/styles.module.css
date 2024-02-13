@@ -1,0 +1,9 @@
+.container {
+  max-width: 100dvw;
+  height: 100dvh;
+  background-color: #141519;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  color: aliceblue;
+}
